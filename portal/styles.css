@@ -1,0 +1,68 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.button-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 10px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 5px;
+  color: #fff;
+  background-color: #007BFF;
+  border: 1px solid #007BFF;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
+
+.btn-logout {
+  background-color: #FF0000;
+  border: 1px solid #FF0000;
+}
+
+.btn-logout:hover {
+  background-color: #b30000;
+}
+
+.btn-edulastic {
+  background-color: #28a745;
+  border: 1px solid #28a745;
+}
+
+.btn-edulastic:hover {
+  background-color: #218838;
+}
+
+.btn-gradebook {
+  background-color: #FFC107;
+  border: 1px solid #FFC107;
+}
+
+.btn-gradebook:hover {
+  background-color: #e0a800;
+}
+
+/* Add more specific styles or customize according to your needs */
