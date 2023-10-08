@@ -2,11 +2,16 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 20px;
+  background-color: #ffffcc; /* Yellow-ish background color */
 }
 
 .container {
   max-width: 800px;
   margin: 0 auto;
+  background-color: #fff; /* White background for the content */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 h1 {
@@ -29,40 +34,38 @@ h1 {
   font-size: 16px;
   border-radius: 5px;
   color: #fff;
-  background-color: #007BFF;
-  border: 1px solid #007BFF;
+  background-color: #f39c12; /* Yellow-ish button color */
+  border: 1px solid #f39c12;
   cursor: pointer;
 }
 
 .btn:hover {
-  background-color: #0056b3;
+  background-color: #d68910; /* Darker yellow-ish color on hover */
 }
 
 .btn-logout {
-  background-color: #FF0000;
-  border: 1px solid #FF0000;
+  background-color: #e74c3c; /* Red logout button */
+  border: 1px solid #e74c3c;
 }
 
 .btn-logout:hover {
-  background-color: #b30000;
+  background-color: #c63d30; /* Darker red on hover */
 }
 
 .btn-edulastic {
-  background-color: #28a745;
+  background-color: #28a745; /* Green button color */
   border: 1px solid #28a745;
 }
 
 .btn-edulastic:hover {
-  background-color: #218838;
+  background-color: #218838; /* Darker green on hover */
 }
 
 .btn-gradebook {
-  background-color: #FFC107;
+  background-color: #FFC107; /* Yellow button color */
   border: 1px solid #FFC107;
 }
 
 .btn-gradebook:hover {
-  background-color: #e0a800;
+  background-color: #e0a800; /* Darker yellow on hover */
 }
-
-/* Add more specific styles or customize according to your needs */
