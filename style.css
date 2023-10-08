@@ -1,0 +1,25 @@
+body {
+  background-color: #F9E66E; /* Yellow-ish background */
+  color: #333; /* Dark text color */
+  font-family: Arial, sans-serif; /* Font-family for text */
+}
+
+h1 {
+  color: #333; /* Dark text color for headings */
+}
+
+button {
+  background-color: #FFD700; /* Yellow-ish button color */
+  color: #333; /* Dark text color for the button */
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #FFC300; /* Darker yellow-ish on hover */
+}
+
+/* Add more styles as needed for your specific layout and elements */
