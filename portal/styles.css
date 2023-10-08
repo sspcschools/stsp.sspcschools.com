@@ -25,6 +25,69 @@ h1 {
   justify-content: center;
 }
 
+.btn-edulastic {
+  background-color: #2ecc71; /* Green */
+  border: 1px solid #27ae60;
+}
+
+.btn-edulastic:hover {
+  background-color: #27ae60; /* Darker Green on hover */
+}
+
+.btn-gradebook {
+  background-color: #3498db; /* Blue */
+  border: 1px solid #2980b9;
+}
+
+.btn-gradebook:hover {
+  background-color: #2980b9; /* Darker Blue on hover */
+}
+
+.btn-meet {
+  background-color: #e74c3c; /* Red */
+  border: 1px solid #c0392b;
+}
+
+.btn-meet:hover {
+  background-color: #c0392b; /* Darker Red on hover */
+}
+
+.btn-library {
+  background-color: #f39c12; /* Orange */
+  border: 1px solid #d35400;
+}
+
+.btn-library:hover {
+  background-color: #d35400; /* Darker Orange on hover */
+}
+
+.btn-shortener {
+  background-color: #9b59b6; /* Purple */
+  border: 1px solid #8e44ad;
+}
+
+.btn-shortener:hover {
+  background-color: #8e44ad; /* Darker Purple on hover */
+}
+
+.btn-directory {
+  background-color: #f1c40f; /* Yellow */
+  border: 1px solid #f39c12;
+}
+
+.btn-directory:hover {
+  background-color: #f39c12; /* Darker Yellow on hover */
+}
+
+.btn-home {
+  background-color: #34495e; /* Dark Blue */
+  border: 1px solid #2c3e50;
+}
+
+.btn-home:hover {
+  background-color: #2c3e50; /* Darker Dark Blue on hover */
+}
+
 .btn {
   display: inline-block;
   padding: 10px 20px;
@@ -34,38 +97,5 @@ h1 {
   font-size: 16px;
   border-radius: 5px;
   color: #fff;
-  background-color: #f39c12; /* Yellow-ish button color */
-  border: 1px solid #f39c12;
   cursor: pointer;
-}
-
-.btn:hover {
-  background-color: #d68910; /* Darker yellow-ish color on hover */
-}
-
-.btn-logout {
-  background-color: #e74c3c; /* Red logout button */
-  border: 1px solid #e74c3c;
-}
-
-.btn-logout:hover {
-  background-color: #c63d30; /* Darker red on hover */
-}
-
-.btn-edulastic {
-  background-color: #28a745; /* Green button color */
-  border: 1px solid #28a745;
-}
-
-.btn-edulastic:hover {
-  background-color: #218838; /* Darker green on hover */
-}
-
-.btn-gradebook {
-  background-color: #FFC107; /* Yellow button color */
-  border: 1px solid #FFC107;
-}
-
-.btn-gradebook:hover {
-  background-color: #e0a800; /* Darker yellow on hover */
 }
